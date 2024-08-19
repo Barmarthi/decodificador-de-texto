@@ -1,0 +1,123 @@
+:root {
+    --cor-fundo: #E5E5E5;
+    --cor-detalhes: #0A3871;
+    --cor-cinza: #495057;
+
+}
+
+
+*{
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+header {
+    display: flex;
+}
+h1{
+    color: #0A3871;
+    font-size: 40px;
+    font-weight: bold;
+}
+
+body{
+    background: linear-gradient(180deg, rgba(0,0,0,1) 29%, rgba(28,69,94,1) 79%, rgba(36,167,199,1) 100%);
+}
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.texto-input {
+    border: none;
+    color: var(--cor-detalhes);
+    background-color: transparent;
+    margin-top: 90px;
+    border-radius: 24px;
+    text-transform: lowercase;
+    resize: none;
+}
+
+::placeholder{ color: #0A3871;}
+    .texto-input:focus{
+        outline: none;
+    }
+
+.texto-output {
+    background: transparent;
+    background-image: url(./assets/pessoa-icon.svg);
+    background-position: 20px;
+    background-repeat: no-repeat;
+    border-radius: 24px;
+    border-color: #495057;
+    color: var(--cor-detalhes);
+    margin-left: 98px;
+    margin-top: 20px;
+    padding-left: 20px;
+    position: fixed;
+    resize: none;
+    
+}
+.texto-output:focus{
+    outline: none;
+}
+
+.botoes{
+    display: flex;
+    margin-top: 18px;
+}
+
+.criptografar{
+    background-color: #0a3871;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #d8dfe8;
+    cursor: pointer;
+    height: 67px;
+    width: 328px;
+}
+
+.descriptografar{
+    background: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.infos {
+    color: rgb(37, 114, 201);
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.rodape{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    }
+
+    h6{
+        font-size: small;
+        font-weight: bold;
+    }
+

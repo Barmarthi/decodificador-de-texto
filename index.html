@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="style.css">
+    <title>Decodificador de Texto</title>
+</head>
+    <body>
+
+        <header>
+            <img src="./assets/alura-icon.svg" alt="Logo da Alura">
+            <h1>Decodificador de Texto</h1>
+        </header>
+
+        <main>
+            <section>
+                <textarea class="texto-input" cols="41" rows="4" placeholder="Digite seu texto..."></textarea>
+
+            <div>
+                <h6 class="infos">Apenas letras minúsculas e sem acento.</h6>
+            </div>
+
+            <div class="botoes">
+                <button class="criptografar" onclick="btnCriptografar()">Criptografar</button> 
+                <button class="descriptografar" onclick="btnDescriptografar()">Descriptografar</button>
+            </div>
+            
+            </section>
+
+        <section>
+                <textarea class="texto-output" cols="20" rows="10"></textarea>
+                <button class="copiar" onclick="btnCopiar()">Copiar</button>
+        </section>
+
+    </main>
+    <footer class="rodape">
+        <h6>Feito por Bárbara Marques</h6>
+    </footer>
+        <script src="script.js"></script>
+    </body>
+</html>
